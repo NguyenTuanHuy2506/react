@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 1150px;
+    padding: 0 20px;
+}
+
+// @for $i from 1 to 6 {
+//     .mt-#{$i} {
+//         margin-top: #{$i}rem;
+//     }
+// }
